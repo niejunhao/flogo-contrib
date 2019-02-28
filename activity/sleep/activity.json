@@ -1,0 +1,24 @@
+{
+  "name": "tibco-timer-activity",
+  "type": "flogo:activity",
+  "ref": "github.com/vijaynalawade/flogo-contrib/activity/sleep",
+  "version": "0.0.1",
+  "title": "Sleep Activity",
+  "description": "Sleep for specified interval",
+  "homepage": "https://github.com/vijaynalawade/flogo-contrib/activity/sleep",
+  "input":[
+    {
+      "name": "interval",
+      "type": "integer"
+    },
+    {
+      "name": "intervalType",
+      "type": "string",
+      "allowed": ["Millisecond", "Second", "Minute"],
+      "value": "Millisecond"
+    }
+  ],
+  "output": [
+
+  ]
+}
