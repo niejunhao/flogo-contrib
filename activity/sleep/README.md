@@ -1,9 +1,6 @@
----
-title: Sleep
-weight: 4615
----
 
-# Log
+
+# Sleep
 This activity allows you to pause flow execution for given time interval.
 
 ## Installation
@@ -39,7 +36,7 @@ Inputs and Outputs:
 | interval    | True     | Sleep time interval |
 | intervalType| True     | Interval type. Supported types are - Millisecond, Second, Minute |
 ## Examples
-The below example logs a message 'test message':
+The below example pauses flow execution for 30 seconds:
 
 ```json
 {
