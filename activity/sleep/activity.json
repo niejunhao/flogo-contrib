@@ -1,5 +1,5 @@
 {
-  "name": "tibco-timer-activity",
+  "name": "tibco-sleep-activity",
   "type": "flogo:activity",
   "ref": "github.com/vijaynalawade/flogo-contrib/activity/sleep",
   "version": "0.0.1",
