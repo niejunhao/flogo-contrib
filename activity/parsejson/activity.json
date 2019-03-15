@@ -1,0 +1,26 @@
+{
+  "name": "tibco-parsejson-activity",
+  "type": "flogo:activity",
+  "ref": "github.com/vijaynalawade/flogo-contrib/activity/parsejson",
+  "version": "0.0.1",
+  "title": "ParseJSON Activity",
+  "description": "Parses given string into JSON data",
+  "homepage": "https://github.com/vijaynalawade/flogo-contrib/activity/parsejson",
+  "input": [
+    {
+      "name": "jsonData",
+      "type": "string"
+    }
+  ],
+  "output": [
+    {
+      "name": "jsonObject",
+      "type": "complex_object",
+      "display": {
+        "name": "Schema",
+        "type": "texteditor",
+        "syntax": "json"
+      }
+    }
+  ]
+}
