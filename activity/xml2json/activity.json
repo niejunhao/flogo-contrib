@@ -1,0 +1,26 @@
+{
+  "name": "tibco-xml2json-activity",
+  "type": "flogo:activity",
+  "ref": "github.com/vijaynalawade/flogo-contrib/activity/xml2json",
+  "version": "0.0.1",
+  "title": "XML2JSON Activity",
+  "description": "Converts given XML into JSON",
+  "homepage": "https://github.com/vijaynalawade/flogo-contrib/activity/xml2json",
+  "input": [
+    {
+      "name": "xmlData",
+      "type": "string"
+    }
+  ],
+  "output": [
+    {
+      "name": "jsonObject",
+      "type": "complex_object",
+      "display": {
+        "name": "Schema",
+        "type": "texteditor",
+        "syntax": "json"
+      }
+    }
+  ]
+}
