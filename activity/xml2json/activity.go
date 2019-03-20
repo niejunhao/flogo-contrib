@@ -1,4 +1,4 @@
-package XML2JSON
+package xml2json
 
 import (
 	"encoding/json"
