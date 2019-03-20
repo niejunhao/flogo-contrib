@@ -48,7 +48,8 @@ func (a *XML2JSONActivity) Eval(context activity.Context) (done bool, err error)
 
 
 	xml := strings.NewReader(xmlData)
-	jsonData, err := xj.Convert(xml, xj.WithTypeConverter(xj.Float), xj.WithTypeConverter(xj.Int), xj.WithTypeConverter(xj.Bool))
+
+	jsonData, err := xj.Convert(xml,xj.WithTypeConverter(xj.Float, xj.Bool, xj.Int, xj.String, xj.Null))
 	if err != nil {
 		activityLog.Error(err)
 		return false, activity.NewError("Failed to convert XML data", "", nil)
