@@ -1,0 +1,27 @@
+{
+  "name": "tibco-synchronize",
+  "version": "1.0.0",
+  "title": "Synchronize Activity",
+  "author": "TIBCO Software Inc.",
+  "type": "flogo:activity",
+  "settings": [
+    {
+      "name": "Operation",
+      "type": "string",
+      "required": true,
+      "allowed": [
+        "Lock",
+        "Unlock"
+      ],
+      "description": "Select the operation",
+      "value": "Lock"
+    }
+  ],
+  "inputs": [
+    {
+      "name": "key",
+      "type": "string",
+      "required": true
+    }
+  ]
+}
