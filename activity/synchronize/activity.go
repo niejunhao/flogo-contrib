@@ -19,7 +19,7 @@ func init() {
 	_ = activity.Register(&SyncActivity{}, New)
 }
 
-var activityMd = activity.ToMetadata(&Input{})
+var activityMd = activity.ToMetadata(&Settings{}, &Input{})
 var syncMap sync.Map
 
 func New(ctx activity.InitContext) (activity.Activity, error) {
