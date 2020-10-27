@@ -2,7 +2,7 @@
   "name": "tibco-sleep-activity",
   "type": "flogo:activity",
   "ref": "github.com/vijaynalawade/flogo-contrib/activity/sleep",
-  "version": "0.0.1",
+  "version": "v0.5.9",
   "title": "Sleep Activity",
   "description": "Sleep for specified interval",
   "homepage": "https://github.com/niejunhao/flogo-contrib/activity/sleep",
