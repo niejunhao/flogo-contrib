@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "title": "Sleep Activity",
   "description": "Sleep for specified interval",
-  "homepage": "https://github.com/vijaynalawade/flogo-contrib/activity/sleep",
+  "homepage": "https://github.com/niejunhao/flogo-contrib/activity/sleep",
   "input":[
     {
       "name": "interval",
